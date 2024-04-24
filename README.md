@@ -10,14 +10,14 @@ Maintenant vous devez installer apr c'est une dépendance de apache2
 Télécharger le dans cet site: https://apr.apache.org/download.cgi
 1)$ ./configure
 2)$ make 
-3)$ make install
+3)$ sudo make install
 
 
 Apres cela maintenant nous allons installer l'apache ! 
 I)$ cd httpd-2.4.59
 II)$ ./configure --prefix=/usr/local/apache2
 III)$ make
-IV)$ make install
+IV)$ sudo make install
 
 
 
